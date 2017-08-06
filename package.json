@@ -22,14 +22,14 @@
     "node": "6.11.2"
   },
   "dependencies": {
+    "@types/hapi": "16.1.8",
+    "@types/node": "8.0.19",
     "foreman": "2.0.0",
     "globby": "6.1.0",
     "hapi": "16.5.2",
     "typescript": "2.4.2"
   },
   "devDependencies": {
-    "@types/hapi": "16.1.8",
-    "@types/node": "8.0.19",
     "tslint": "5.5.0"
   }
 }
