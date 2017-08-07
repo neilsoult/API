@@ -19,7 +19,7 @@ class Server {
         };
         this.server = new Hapi.Server();
         this.server.connection({
-            port: process.env.PORT || 3001,
+            port: +process.env.PORT || 3001,
             routes: { cors: true }
         });
         this.initializeRoutes();
